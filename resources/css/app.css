@@ -1,0 +1,20 @@
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: blue;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: white;
+  /*   background: repeating-linear-gradient(
+      45deg,
+      var(--secondary),
+      var(--secondary) 5px,
+      var(--primary) 5px,
+      var(--primary) 10px
+    ); */
+    border-radius: 20px;
+  }
