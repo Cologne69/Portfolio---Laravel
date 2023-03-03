@@ -5,23 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ __('Kyrell | Portfolio') }}</title>
+    @vite('resources/css/app.css')
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.2/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    @vite([])
     @livewireStyles
 </head>
+
 <body class="antialiased">
     <main class="mockup-window w-screen h-screen">
         <div class="flex p-1">
             <div class="flex-auto">
                 <input type="text" class="input rounded w-full" disabled readonly value="{{ request()->url() }}" />
             </div>
-            <ul class="menu menu-horizontal bg-base-100 rounded pl-2">
+            <ul class="menu menu-horizontal bg-primary rounded ml-2 ">
                 <livewire:switch-language />
 
                 <li>
@@ -46,8 +45,8 @@
         function toggleTheme() {
             //change data-theme attribute
             if (document.body.getAttribute('data-theme') == 'cyberpunk') {
-                document.body.setAttribute('data-theme', 'light');
-                localStorage.setItem('theme', 'light');
+                document.body.setAttribute('data-theme', 'synthwave');
+                localStorage.setItem('theme', 'synthwave');
             } else {
                 document.body.setAttribute('data-theme', 'cyberpunk');
                 localStorage.setItem('theme', 'cyberpunk');
@@ -56,10 +55,10 @@
         if (localStorage.getItem('theme') == 'cyberpunk') {
             document.body.setAttribute('data-theme', 'cyberpunk');
         } else {
-            document.body.setAttribute('data-theme', 'light');
+            document.body.setAttribute('data-theme', 'synthwave');
         }
     </script>
-
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     @livewireScripts
 </body>
 
