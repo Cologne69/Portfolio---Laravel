@@ -1,4 +1,5 @@
 <div>
+
     <div class="grid grid-cols-1 lg:grid-cols-2">
         <div class="grid justify-center place-content-center mb-10 sm:mb-0 p-4">
             <div class="text-7xl font-bold">{{ __('Welcome to my Portfolio') }} </div><br>

@@ -1,10 +1,10 @@
 <div>
-    {{-- <style>
-        #contents {
+    <style>
+        body {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='currentColor' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
 
         }
-    </style> --}}
+    </style>
     <div class="toast hidden toast-top toast-center w-max" id="toastDiscord">
         <div class="alert bg-secondary">
             <div>
@@ -13,8 +13,8 @@
         </div>
     </div>
 
-    <div class="grid sm:grid-cols-1 md:grid-cols-2 h-full content-center">
-        <div class="grid p-5 mb-5 content-center glass">
+    <div class="grid sm:grid-cols-1 md:grid-cols-2">
+        <div class="grid p-5 mb-5 place-content-center justify-center glass">
             <div class="text-7xl font-bold animate__animated animate__fadeInLeft">Let's connect!</div>
             <div class="font-bold animate__animated animate__fadeInUpBig text-xl">"A dream you dream alone is
                 only a dream. A
@@ -22,7 +22,7 @@
                 you dream together is reality." <div class="text-5xl font-bold">-John Lennon</div>
             </div>
         </div>
-        <div class="grid grid-cols-2 h-full">
+        <div class="grid grid-cols-2  place-content-center justify-center">
             <div class="card mr-1">
                 <div style="card-body">
                     <div class="grid gap-2 justify-items-end">
