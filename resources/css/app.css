@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
 *::-webkit-scrollbar {
-    width: 9px;
-  }
+  width: 4px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: hsl(var(--p));
-    border-radius: 5px;
-  }
+*::-webkit-scrollbar-track {
+  background: hsl(var(--p));
+  border-radius: 5px;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: hsl(var(--s));
-    border-radius: 14px;
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--s));
+  border-radius: 14px;
+}
+

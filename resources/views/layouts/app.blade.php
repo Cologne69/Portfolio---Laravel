@@ -10,16 +10,20 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/htmltypist.js/dist/typist.css">
     @livewireStyles
 </head>
 
-<body class="antialiased">
-    <main class="mockup-window w-screen h-screen">
+<body class="antialiased overflow-x-hidden">
+    <div class="w-screen h-full border-black border-2">
+        <nav>
+
+        </nav>
         <div class="flex p-1">
             <div class="flex-auto">
                 <input type="text" class="input rounded w-full" disabled readonly value="{{ request()->url() }}" />
             </div>
-            <ul class="menu menu-horizontal bg-primary rounded ml-2 ">
+            <ul class="menu menu-horizontal bg-primary rounded ml-2">
                 <livewire:switch-language />
                 <li class="dropdown dropdown-bottom dropdown-end">
                     <label tabindex="0">
@@ -51,11 +55,11 @@
             </ul>
         </div>
         <livewire:tabs>
-            <div class="overflow-y-auto p-8" style="height: 85.8%">
+            <div class="overflow-y-auto h-screen border-blue-200 border-2" id="contents">
                 {{ $slot }}
             </div>
 
-    </main>
+        </div>
 
     <script>
         function toggleTheme(option) {
@@ -70,7 +74,7 @@
             toggleTheme(localStorage.getItem('theme'));
         }
     </script>
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/htmltypist.js/dist/typist.js"></script>
     @livewireScripts
 </body>
 
