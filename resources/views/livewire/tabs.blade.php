@@ -1,4 +1,4 @@
-<div class="tabs tabs-boxed">
+<div class="tabs">
     <a class="tab tab-lg @if (request()->is('/')) tab-active @endif flex-auto"
         href="/">{{ __('About Me') }}</a>
     <a class="tab tab-lg  @if (request()->is('project')) tab-active @endif flex-auto"

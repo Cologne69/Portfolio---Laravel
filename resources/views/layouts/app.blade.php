@@ -15,17 +15,10 @@
 </head>
 
 <body class="antialiased overflow-x-hidden">
-    <div class="w-screen h-full border-black border-2">
-        <nav>
-
-        </nav>
-        <div class="flex p-1">
-            <div class="flex-auto">
-                <input type="text" class="input rounded w-full" disabled readonly value="{{ request()->url() }}" />
-            </div>
-            <ul class="menu menu-horizontal bg-primary rounded ml-2">
-                <livewire:switch-language />
-                <li class="dropdown dropdown-bottom dropdown-end">
+    <div class="w-screen h-full">
+        <div class="glass card p-2 left-1/4 right-1/4 bottom-3 w-1/2 fixed z-50 bg-primary rounded-3xl">
+            <ul class="menu menu-horizontal rounded ml-2">
+                <li class="dropdown dropdown-top dropdown-end">
                     <label tabindex="0">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6">
@@ -39,6 +32,8 @@
                         <li><a onclick="toggleTheme('cyberpunk')">Cyberpunk</a></li>
                         <li><a onclick="toggleTheme('night')">Night</a></li>
                     </ul>
+                    <livewire:switch-language />
+                    <livewire:tabs>
                 </li>
                 {{-- <li tabindex="0" style="z-index: 1" class="right-0">
                     <a>
@@ -54,12 +49,12 @@
                 </li> --}}
             </ul>
         </div>
-        <livewire:tabs>
-            <div class="overflow-y-auto h-screen border-blue-200 border-2" id="contents">
-                {{ $slot }}
-            </div>
 
+        <div class="h-screen w-screen border-blue-200 border-2">
+            {{ $slot }}
         </div>
+
+    </div>
 
     <script>
         function toggleTheme(option) {
