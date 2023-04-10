@@ -14,7 +14,7 @@
     </div>
 
     <div class="grid sm:grid-cols-1 md:grid-cols-2">
-        <div class="grid p-5 mb-5 place-content-center justify-center glass">
+        <div class="grid p-5 mb-5 place-content-center justify-center card card-compact">
             <div class="text-7xl font-bold animate__animated animate__fadeInLeft">Let's connect!</div>
             <div class="font-bold animate__animated animate__fadeInUpBig text-xl">"A dream you dream alone is
                 only a dream. A

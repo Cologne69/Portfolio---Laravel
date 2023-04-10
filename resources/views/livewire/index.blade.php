@@ -15,7 +15,7 @@
         </div>
         <div>
             <img src="{{ asset('img/foto.png') }}" alt="fotoQ"
-                class="animate__animated animate__fadeInRight animate_slower">
+                class="animate__animated animate__fadeInRight animate_slower z-1">
         </div>
     </div>
     {{-- <div class="stats stats-vertical shadow w-full sm:stats-horizontal">
