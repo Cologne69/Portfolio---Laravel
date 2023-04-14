@@ -22,6 +22,7 @@
     <div class="container m-auto snap-y snap-mandatory h-screen overflow-x-hidden">
         {{ $slot }}
     </div>
+    
 
     {{-- <div class="fixed shadow-2xl my-auto right-3 inset-y-5">
         <ul class="steps steps-vertical">

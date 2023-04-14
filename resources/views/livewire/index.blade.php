@@ -93,10 +93,47 @@
     </div>
 </div>
 
-<div class="grid grid-cols-1 snap-center snap-always h-screen content-center">
-    <div class="grid justify-center place-content-center mb-10 sm:mb-0 p-4">
-            <div class="card shadow-2xl hover:shadow-none bg-gradient-to-br from-primary to-accent p-2">
-                mantap
+<div class="snap-end snap-always">
+    <div class="grid grid-cols-1 h-screen">
+        <div class="grid justify-center place-content-center mb-10 sm:mb-0 p-4 grid-cols-2 gap-3">
+            <div class="card p-10 bg-base-500 rounded-box h-fit">
+                <h2 class="text-2xl font-bold mb-5">Skills</h2>
+                <div class="flex flex-wrap gap-5 justify-center">
+                    <div class="w-32">
+                        <div class="radial-progress w-24 h-24" style="--value:80;">
+                            <div class="overlay text-xs">{{__("Management")}}</div>
+                        </div>
+                    </div>
+                    <div class="w-32">
+                        <div class="radial-progress w-24 h-24" style="--value:70;">
+                            <div class="overlay text-xs">{{__("Leadership")}}</div>
+                        </div>
+                    </div>
+                    <div class="w-32">
+                        <div class="radial-progress w-24 h-24" style="--value:60;">
+                            <div class="overlay text-xs">{{__("Photography")}}</div>
+                        </div>
+                    </div>
+                    <div class="w-32">
+                        <div class="radial-progress w-24 h-24" style="--value:65;">
+                            <div class="overlay text-xs">Editing</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <a class="card p-10 bg-gradient-to-tl from-primary to-secondary rounded-box h-full font-thin"
+                href="https://resume.io/r/TDPxaR1wv">
+                <h2 class="text-2xl font-bold mb-5 justify-end flex">Resume & CV</h2>
+                <div class="card-actions text-white">
+                    <small>{{__("*Click this card for my CV")}}</small>
+                    <p>In my CV you can find a lot of detailed stuff about me, including my hobbies, works, skills, and many more! Make sure to check it out!</p>
+                </div>
+            </a>
+        </div>
     </div>
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content bottom-0">
+        <div>
+            <p>Copyright © 2023 - Kyrell Leano Siauw - 0706022110038</p>
+        </div>
+    </footer>
 </div>

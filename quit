@@ -1,0 +1,59 @@
+[33mcommit 824c03b96e6569fc47e5441ee7ea80e846ccce20[m[33m ([m[1;36mHEAD -> [m[1;32mfix[m[33m, [m[1;31morigin/fix[m[33m)[m
+Author: Kyrell Asus <kleanosiauw@student.ciputra.ac.id>
+Date:   Wed Apr 12 00:31:22 2023 +0700
+
+    #35 added mobile nav with translation, now working
+
+[33mcommit c747169bd22145c50f06f73c500d73c4fa391464[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Tue Apr 11 01:56:28 2023 +0700
+
+    #34 cards on contacts, all almost done
+
+[33mcommit 2f960d678eeae443188de10399e669e18139212a[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Mon Apr 10 02:54:10 2023 +0700
+
+    #33 contact page cannot center,navbar needs fixing
+
+[33mcommit 2154109a3e4da5906d1aea163256a324ae7b8de8[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Mon Apr 10 02:47:54 2023 +0700
+
+    #32 UI overhaul, changed from browser-like to soft
+
+[33mcommit e19f4366b691a38957e47a9adfebe2b27b5808aa[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Mon Apr 10 02:05:27 2023 +0700
+
+    #31 contact me done, index on progress
+
+[33mcommit 2fd978a451f68e8d7c46fdc9ab672d659f97f117[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Fri Mar 10 20:47:33 2023 +0700
+
+    update v0.1 # 30 In progress message
+
+[33mcommit 15b08f16db82297c8158f8b23f98f3a06dea1fdc[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Thu Mar 9 14:26:47 2023 +0700
+
+    draft #17
+
+[33mcommit daf8d2c2b3ba5c0c60478e2d052017b9f5c8daee[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Tue Mar 7 00:14:51 2023 +0700
+
+    new css #2.2
+
+[33mcommit 505e589244edec78aa12e2e17e719a59db3c0bfc[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Fri Mar 3 23:51:20 2023 +0700
+
+    Update #2
+
+[33mcommit 24c8f86047c9c57a6583a524892a5e460d46641d[m
+Author: Kyrell <kleanosiauw@student.ciputra.ac.id>
+Date:   Sun Feb 26 02:16:10 2023 +0700
+
+    #1

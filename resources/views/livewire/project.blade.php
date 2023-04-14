@@ -7,7 +7,7 @@
                     Multiplater 9x9 TicTacToe
                 </h1>
                 <p>
-                    A multiplayer TicTacToe game with 9x9 board.
+                    {{ __(' A multiplayer TicTacToe game with 9x9 board.') }}
                 </p>
                 <div class="card-actions justify-start">
                     <div class="badge badge-outline h-auto">Algorithm & Programming</div>
@@ -16,7 +16,7 @@
                     <div class="badge badge-outline h-auto">Winform</div>
                 </div>
                 <br />
-                <small>*Click the card for the source code!</small>
+                <small>{{ __('*Click the card for the source code!') }}</small>
             </div>
         </a>
         <a target="_blank"
@@ -27,7 +27,7 @@
                     Sinar Timur ERP Systems
                 </h1>
                 <p>
-                    A simple ERP system for Sinar Timur Sorong.
+                    {{ __('A simple ERP system for Sinar Timur Sorong.') }}
                 </p>
                 <div class="card-actions justify-start">
                     <div class="badge badge-outline h-auto">System Analysis Design & Database Implementation</div>
@@ -36,7 +36,7 @@
                     <div class="badge badge-outline h-auto">Bootstrap 5</div>
                 </div>
                 <br />
-                <small>*Click the card for the source code!</small>
+                <small>{{ __('*Click the card for the source code!') }}</small>
             </div>
         </a>
         <a target="_blank"
@@ -47,7 +47,7 @@
                     Hotel Database
                 </h1>
                 <p>
-                    An ALP Project with room booking, restaurant orders, room checkout features.
+                    {{ __('An ALP Project with room booking, restaurant orders, room checkout features.') }}
                 </p>
                 <div class="card-actions justify-start">
                     <div class="badge badge-outline h-auto">Application Development, Database Design</div>
@@ -55,7 +55,7 @@
                     <div class="badge badge-outline h-auto">Winform</div>
                 </div>
                 <br />
-                <small>*Click the card for the source code!</small>
+                <small>{{ __('*Click the card for the source code!') }}</small>
             </div>
         </a>
         <a target="_blank"
@@ -66,7 +66,7 @@
                     PotenSeek
                 </h1>
                 <p>
-                    Website of PotenSeek, an app for finding potentials in childrens.
+                    {{ __('Website of PotenSeek, an app for finding potentials in childrens.') }}
                 </p>
                 <div class="card-actions justify-start">
                     <div class="badge badge-outline h-auto">SvelteKit, PocketBase, Go</div>
@@ -75,7 +75,7 @@
                     <div class="badge badge-outline h-auto">Upcoming Project</div>
                 </div>
                 <br />
-                <small>*Click the card for the source code!</small>
+                <small>{{ __('*Click the card for the source code!') }}</small>
             </div>
         </a>
         <a target="_blank"
@@ -86,7 +86,7 @@
                     OpenMerce
                 </h1>
                 <p>
-                    A Open Source E-Commerce Website.
+                    {{ __('A Open Source E-Commerce Website.') }}
                 </p>
                 <div class="card-actions justify-start">
                     <div class="badge badge-outline h-auto">SvelteKit, Go</div>
@@ -95,7 +95,7 @@
                     <div class="badge badge-outline h-auto">Upcoming Project</div>
                 </div>
                 <br />
-                <small>*Click the card for the source code!</small>
+                <small>{{ __('*Click the card for the source code!') }}</small>
             </div>
         </a>
     </div>
