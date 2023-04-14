@@ -122,7 +122,7 @@
                 </div>
             </div>
             <a class="card p-10 bg-gradient-to-tl from-primary to-secondary rounded-box h-full font-thin"
-                href="https://resume.io/r/TDPxaR1wv">
+                href="https://resume.io/r/TDPxaR1wv" target="_blank">
                 <h2 class="text-2xl font-bold mb-5 justify-end flex">Resume & CV</h2>
                 <div class="card-actions text-white">
                     <small>{{__("*Click this card for my CV")}}</small>
